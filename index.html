@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>YouTube Search</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TikTok Video Downloader</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Cari Video YouTube</h1>
-    <input type="text" id="searchInput" placeholder="Ketik judul video..." />
-    <button onclick="searchVideos()">Cari</button>
-    <div id="results"></div>
-    <div id="videoPlayer" class="hidden"></div>
+    <h1>TikTok Downloader</h1>
+    <input type="text" id="urlInput" placeholder="Paste TikTok video URL here..." />
+    <button onclick="downloadVideo()">Download Video</button>
+    <p id="status"></p>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
